@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score More</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+   <div id="mainScreen">
+        <button onclick="startGame()"> Start Game </button>
+   </div>
+
+   <div id="gameScreen">
+
+        <span id="timeMinute" class="timer"> 0 </span> <span class="timer"> : </span><span id="timeSecond"  class="timer"> 10 </span>
+    
+        <h1 id="score">0</h1>
+    
+        <button onclick="scoreMore()"> Score More </button>
+
+   </div>
+
+   <div id="loseScreen">
+        <h1>You Lose</h1>
+        <h1 id="result"></h1>
+   </div>
+
+   </center>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
